@@ -1,0 +1,81 @@
+body{
+    text-align: center;
+    padding-top: 15%;
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+    background-attachment: fixed;   
+    color: #ffffff; 
+    width: 85%;
+	max-width: 600px;
+	background:#f1f1f1;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	padding: 30px 40px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserrat",sans-serif;
+    background-image: url("https://th.bing.com/th/id/OIP.fqzDljCHJzY7FKlVuz2n7wHaEK?pid=Api&rs=1");
+}
+
+h2{
+   font-size: 300%; 
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F1F1F1;
+    background-color: rgba(247, 244, 244, 0.4);
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+ }
+ .popup-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #ffffff;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.5s;
+    animation-name: slideIn;
+    animation-duration: 0.5s
+ }
+ .end {
+    color: white;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+ }
+ .end:hover,
+ .end:focus {
+    color: #000;
+    text-decoration: underline;
+    cursor: pointer;
+ }
+ .popup-header {
+    padding: 1px 10px;
+    background-color: gray;
+    color: white;
+ }
+ .popup-body{
+    background-color: gray; 
+    padding:0%;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    color: black;
+ }
+ .button{
+    font-size: large;
+    border-radius: 12px;
+    background-color: #e7e7e7; color: black;
+ 
+ }
